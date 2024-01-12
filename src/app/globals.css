@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.pageContainer {
+  @apply w-full h-screen;
+}
+
+/* ImageCarousel.module.css */
+.carouselContainer {
+  @apply w-full h-full overflow-hidden;
+}
+
+.slide {
+  @apply w-full h-full flex justify-center items-center;
+}
