@@ -32,7 +32,7 @@ const KeenCarousel = ({images}) => {
             className="fader__slide keen-slider__slide w-full h-full"
             style={{ opacity: opacities[idx] }}
         >
-            <img width="100%" src={src} />
+            <img width="75%" src={src} className='m-auto'/>
         </div>
         ))}
         </div>

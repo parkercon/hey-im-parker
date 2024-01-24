@@ -20,7 +20,7 @@ const buniImages = [
     "sct2.jpeg"
   ]
   const sensorImages = [
-    "level-sensor.jpg",
+    "level-sensor.jpeg",
     "level.png"
   ]
   const tocsImages = [
@@ -42,7 +42,7 @@ const buniImages = [
 
 const Projects = () => {
   return (
-    <div className='self-end overflow-scroll h-2/3 w-7/12'>
+    <div className='self-end overflow-scroll h-5/6 w-7/12'>
         <ul className='list-none'>
             <div className="collapse bg-base-200 bg-transparent">
             <input type="checkbox"  /> 
@@ -59,7 +59,7 @@ const Projects = () => {
                     <p>
                         I was able to integrate my technical expertise into the company by standing up an award-winning, full-stack e-commerce website. The beta versions 
                         features an interactive 3D surfboard designer where users can customize and design their own boards. The production version of the site can be 
-                        found here: <a href="https://www.buniboards.com" target="blank">www.buniboards.com</a> <br/><br/>
+                        found here: <a className='text-sky-600 underline' href="https://www.buniboards.com" target="blank">www.buniboards.com</a> <br/><br/>
                     </p>
                     <p>
                         I have been fortunate enough to manage all aspects of the company. This includes: 

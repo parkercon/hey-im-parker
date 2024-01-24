@@ -19,7 +19,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   font-family: "Neue Montreal" !important;
-  overscroll-behavior: none
+  overscroll-behavior: none;
+  background-color: #e6e6e6;
 }
 
 .pageContainer {
