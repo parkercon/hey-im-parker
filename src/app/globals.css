@@ -18,13 +18,8 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    font-family: "Neue Montreal" !important;
+  font-family: "Neue Montreal" !important;
+  overscroll-behavior: none
 }
 
 .pageContainer {
@@ -38,6 +33,18 @@ body {
 
 .slide {
   @apply w-full h-full flex justify-center items-center;
+}
+
+.overflow-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  pointer-events: none; /* Allows interactions with elements underneath */
+  z-index: 1; /* Adjust z-index as needed */
 }
 
 #c {

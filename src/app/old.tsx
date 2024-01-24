@@ -250,6 +250,6 @@
       transition={transition}
     />
   </svg>
-    {/* <span className="text-white text-6xl font-semibold h-full w-full p-8 text-lg text-slate-900">My Story begins in the Sleepy Coastal Town of Cannon Beach, OR.</span> */}
+    <span className="text-white text-6xl font-semibold h-full w-full p-8 text-lg text-slate-900">My Story begins in the Sleepy Coastal Town of Cannon Beach, OR.</span>
   </div>
 </div>
