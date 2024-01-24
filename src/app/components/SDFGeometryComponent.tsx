@@ -1,3 +1,4 @@
+"use client"
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
@@ -15,7 +16,7 @@ const SDFGeometryComponent = () => {
     bounds: 1,
     autoRotate: true,
     wireframe: true,
-    material: 'depth',
+    material: 'basic',
     vertexCount: '0'
   };
 
@@ -130,10 +131,14 @@ const SDFGeometryComponent = () => {
     meshFromSDF.material.dispose();
 
     if (settings.material === 'depth') {
-      meshFromSDF.material = new THREE.MeshDepthMaterial();
+      meshFromSDF.material = new THREE.MeshDepthMaterial({ color: 0x7FFFD4 });
     } else if (settings.material === 'normal') {
-      meshFromSDF.material = new THREE.MeshNormalMaterial();
+      meshFromSDF.material = new THREE.MeshNormalMaterial({ color: 0x7FFFD4 });
     }
+    else {
+        // Set a custom color for MeshBasicMaterial
+        meshFromSDF.material = new THREE.MeshBasicMaterial({ color: 0xFFFFFF }); // Replace 0xff0000 with your desired color
+      }
 
     meshFromSDF.material.wireframe = settings.wireframe;
   }
@@ -170,7 +175,7 @@ const SDFGeometryComponent = () => {
     // stats.update();
   }
 
-  return <div className="absolute top-0 left-0 z-0" ref={containerRef}></div>;
+  return <div className="absolute top-0 left-0 z-0 h-full w-full overflow-hidden" ref={containerRef}></div>;
 };
 
 export default SDFGeometryComponent;
