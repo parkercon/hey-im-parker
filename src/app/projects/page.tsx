@@ -86,9 +86,9 @@ const Projects = () => {
                         The organization connects traditionally unrepresented college students interested in programming and design with nonprofits to
                          create socially impactful digital tools. <br/><br/></p>
                     <p><strong>\+ Winter 2023/24 Cohort - Product Manager - XtraMath</strong><br/></p>
-                    <p>XtraMath's mission is to make the tools for learning math available to everyone.  Our vision is universal numeracy, half of UN Sustainable Development Goal 4.6
+                    <p>XtraMath&apos;s mission is to make the tools for learning math available to everyone.  Our vision is universal numeracy, half of UN Sustainable Development Goal 4.6
                         It is used by over 6.5 million students every year for daily math practice. As the Product Manager, I helped spearhead the creation of a Amazon Redshift and Glue
-                        DataWarehouse solution to aid in the nonprofit's reporting and integration needs of a growing business. <br/><br/>
+                        DataWarehouse solution to aid in the nonprofit&apos;s reporting and integration needs of a growing business. <br/><br/>
                     </p>
                     <p><strong>\+ Winter 2021/2022 Cohort - Engineer - Environmental Defense Fund</strong><br/></p>
                     <p>The Environmental Defense Fund (EDF) is a global nonprofit aimed at tacking climate change. The EDF identified an issue with a lack of response to 
@@ -131,7 +131,7 @@ const Projects = () => {
                 <p>
                 Initially, I was given a Keyence FL series level sensor to take to my team’s lab and develop a proof of concept. Once that was completed, I worked 
                 with maintenance technicians at the plant to get the probe cut to the size of a power steering fluid tote and then installed. 
-                After that, I integrated the sensor into the plant's automation network and SCADA system that the control’s engineering team uses and created a 
+                After that, I integrated the sensor into the plant&apos;s automation network and SCADA system that the control’s engineering team uses and created a 
                 live pop-up that displays the level and presents a trend graph of the tote’s level history. If it gets too low, an alarm is triggered, and the 
                 proper point of contacts receive an email letting them know.
                 </p>
@@ -159,7 +159,7 @@ const Projects = () => {
                 <div className="collapse-content"> 
                     <p><strong>\+ Oregon State University - Oregon Department of Transportation (ODOT) - Developer</strong></p>
                     <p>
-                        Led a team of 5 student developers through a 2 year redevelopment of ODOT's Transportation Operations Center System (TOCS). The 
+                        Led a team of 5 student developers through a 2 year redevelopment of ODOT&apos;s Transportation Operations Center System (TOCS). The 
                         goal of the application was to providing a single, regional point of contact for 24x7 monitoring of transportation system operations and 
                         coordination of transportation related communications and services among internal and external customers. <br/><br/> Additionally, TOCS is able to:
                     </p>
@@ -178,7 +178,7 @@ const Projects = () => {
                         </li>
                     </ul>
                     <p>
-                        <br/> We were able to successfully decouple the legacy application's monolithic architecture and leverage microservices, enhancing
+                        <br/> We were able to successfully decouple the legacy application&apos;s monolithic architecture and leverage microservices, enhancing
                          system scalability and reduce downtime by 50%. This was done through a tech stack of .NET6, .NET Framework 4.8, Apache ActiveMQ, SignalR, and GraphQL.
                          The front-end was completely redesigned and implemented in VueJS, TypeScript, GoldenLayout, and AG Grid. This immensely improved application usability and functionality.
                     </p>
@@ -197,7 +197,7 @@ const Projects = () => {
                         manufactures two high performance electric formula style vehicles, to compete in Formula SAE in North America and Formula Student in Europe. 
                         <br/>
                         <br/>
-                        I was responsible for the optimization of the Trajectory Planning and Control subsystem on the autonomous vehicle. The subsystem involves the development of algorithms that take into account the car's current position, velocity, and orientation, as well as the track layout. The trajectory planning component of this subsystem determines the path the car should follow. The control component of the subsystem is responsible for executing the planned trajectory by adjusting the steering angle and speed in real-time. The goal of the control component is to maintain minimum deviation of the reference trajectory while achieving maximum speed with respect to minimum lap time.
+                        I was responsible for the optimization of the Trajectory Planning and Control subsystem on the autonomous vehicle. The subsystem involves the development of algorithms that take into account the car&apos;s current position, velocity, and orientation, as well as the track layout. The trajectory planning component of this subsystem determines the path the car should follow. The control component of the subsystem is responsible for executing the planned trajectory by adjusting the steering angle and speed in real-time. The goal of the control component is to maintain minimum deviation of the reference trajectory while achieving maximum speed with respect to minimum lap time.
                         <br/><br/>
                         Through development in ROS, C++, YoloV4, and ForcesPro, I was able to design and implement several controls algorithims and improve lap time by 50%. 
                     </p>
@@ -208,10 +208,10 @@ const Projects = () => {
             <div className="collapse bg-base-200 bg-transparent">
                 <input type="checkbox"  /> 
                 <div className="collapse-title text-xl font-medium">
-                2022 \\ CLASS PROJECT \\ <span className='text-3xl'>SHAPE N' SURF</span>
+                2022 \\ CLASS PROJECT \\ <span className='text-3xl'>SHAPE N&apos; SURF</span>
                 </div>
                 <div className="collapse-content"> 
-                Buni Shape n' Surf exists as the all-in-one suite for Surfboard Builders. Users are able to select and save surf spots around the world through the Google Maps API, then either view a real-time surf forecast, lookahead into the upcoming month, or view the last year's worth of surf data—all through the Open-Meteo Marine Weather API. For the surfboard shaping side of the application, if a user finds a surfboard they would like to recreate they can visit the "Shape Board" page where they can either take a picture of a board or upload it from their phone. A TensorFlow Lite Machine Learning Model was trained by our team for surfboard image recognition. If it really was a board that the user took a picture of, the user can then enter the size of the board they would like. Our OpenCV implementation finds the outline of the board, splits it in half, and divides it into slices that fit on a standard 8.5"x11" piece of paper. From there, the user can save the board and print the pdf generated by ITextPdf. Just like that, the user is ready to make a surfboard!
+                Buni Shape n&apos; Surf exists as the all-in-one suite for Surfboard Builders. Users are able to select and save surf spots around the world through the Google Maps API, then either view a real-time surf forecast, lookahead into the upcoming month, or view the last year&apos;s worth of surf data—all through the Open-Meteo Marine Weather API. For the surfboard shaping side of the application, if a user finds a surfboard they would like to recreate they can visit the "Shape Board" page where they can either take a picture of a board or upload it from their phone. A TensorFlow Lite Machine Learning Model was trained by our team for surfboard image recognition. If it really was a board that the user took a picture of, the user can then enter the size of the board they would like. Our OpenCV implementation finds the outline of the board, splits it in half, and divides it into slices that fit on a standard 8.5"x11" piece of paper. From there, the user can save the board and print the pdf generated by ITextPdf. Just like that, the user is ready to make a surfboard!
                 <br/><br/>
                 <KeenCarousel images={shnsuImages}/>
                 </div>
