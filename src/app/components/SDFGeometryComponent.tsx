@@ -85,7 +85,7 @@ const SDFGeometryComponent = () => {
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
     if (containerRef.current) {
-      containerRef.current.appendChild(renderer.domElement);
+      containerRef.current!.appendChild(renderer.domElement);
     } else {
       console.error("Container reference is undefined.");
     }
