@@ -84,7 +84,11 @@ const SDFGeometryComponent = () => {
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    containerRef.current.appendChild(renderer.domElement);
+    if (containerRef.current) {
+      containerRef.current.appendChild(renderer.domElement);
+    } else {
+      console.error("Container reference is undefined.");
+    }
 
     // stats = new Stats();
     // containerRef.current.appendChild(stats.dom);
