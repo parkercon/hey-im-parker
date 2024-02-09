@@ -34,23 +34,24 @@ export default function TextAnim({ delay }: ITextAnimProps) {
   const splitIndex = baseText.indexOf("Parker Conrad");
 
   return (
-    <span className="text-5xl font-semibold">
-      <motion.span style={{ display: "inline-block", overflow: "hidden" }}>
-        <motion.span style={{ x: displayText }}>
-          {baseText.slice(0, splitIndex)}
-        </motion.span>
-        <motion.span className="text-red-900" style={{ x: displayText }}>
-          {baseText.slice(splitIndex)}
-        </motion.span>
-      </motion.span>
-      {/* <motion.span className="text-5xl font-semibold">{displayText}</motion.span> */}
-      {done && (
-        <>
-          <span>&nbsp;</span>
-        </>
-      )}
+    <span className="text-lg">
       <RedoAnimText delay={delay + 1} />
       <CursorBlinker />
     </span>
   );
 }
+
+      // {/* <motion.span style={{ display: "inline-block", overflow: "hidden" }}>
+      //   <motion.span style={{ x: displayText }}>
+      //     {baseText.slice(0, splitIndex)}
+      //   </motion.span>
+      //   <motion.span className="text-red-900" style={{ x: displayText }}>
+      //     {baseText.slice(splitIndex)}
+      //   </motion.span>
+      // </motion.span>
+      // {/* <motion.span className="text-5xl font-semibold">{displayText}</motion.span> */}
+      // {done && (
+      //   <>
+      //     <span>&nbsp;</span>
+      //   </>
+      // )} */}

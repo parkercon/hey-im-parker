@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Link from 'next/link';
 import SDFGeometryComponent from './components/SDFGeometryComponent';
+import TextAnim from './components/TextAnim';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -23,7 +24,8 @@ export default function RootLayout({
       <SDFGeometryComponent/>
           <div className="flex-1 m-4 z-10 h-1/4">
             <h1 className='text-5xl'>Parker Conrad</h1>
-            <h2 className='text-lg'>Software Engineer/Human Being</h2>
+            {/* <h2 className='text-lg'>Software Engineer/Human Being</h2> */}
+            <TextAnim delay={1}/>
             <ul className="font-bold list-none mt-12 ml-5">
               <li><Link href="/">HOME</Link></li>
               <li><Link href="/projects">PROJECTS</Link></li>

@@ -8,11 +8,11 @@ export interface IRedoAnimTextProps {
 export default function RedoAnimText({ delay }: IRedoAnimTextProps) {
   const textIndex = useMotionValue(0);
   const texts = [
-    "I am a Software Engineer.",
-    "I am a Founder.",
-    "I am a Surfer.",
-    "I am a Surfboard Builder.",
-    "I want to help the world."
+    "Software Engineer.",
+    "Human Being.",
+    "Founder.",
+    "Surfer.",
+    "Optimistic."
   ];
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
@@ -49,5 +49,5 @@ export default function RedoAnimText({ delay }: IRedoAnimTextProps) {
   }, []);
 
 
-  return <motion.span className="inline text-5xl font-semibold">{displayText}</motion.span>;
+  return <motion.span className="inline text-lg">{displayText}</motion.span>;
 }
