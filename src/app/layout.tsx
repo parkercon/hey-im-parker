@@ -4,13 +4,27 @@ import './globals.css'
 import Link from 'next/link';
 import SDFGeometryComponent from './components/SDFGeometryComponent';
 import TextAnim from './components/TextAnim';
+import { motion } from "framer-motion";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Parker Conrad',
   description: 'The Portfolio Website of Parker Conrad',
 }
-
+const draw = {
+  hidden: { pathLength: 0, opacity: 0 },
+  visible: (i) => {
+    const delay = 1 + i * 0.5;
+    return {
+      pathLength: 1,
+      opacity: 1,
+      transition: {
+        pathLength: { delay, type: "spring", duration: 1.5, bounce: 0 },
+        opacity: { delay, duration: 0.01 }
+      }
+    };
+  }
+};
 export default function RootLayout({
   children,
 }: {

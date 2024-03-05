@@ -10,6 +10,7 @@ import TextAnim from "./components/TextAnim";
 import * as THREE from 'three';
 import StarryRock from './components/StarryRock';
 
+
 import { useEffect, useRef } from "react";
 import Link from 'next/link';
 const images = [

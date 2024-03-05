@@ -9,10 +9,16 @@ export default function RedoAnimText({ delay }: IRedoAnimTextProps) {
   const textIndex = useMotionValue(0);
   const texts = [
     "Software Engineer.",
-    "Human Being.",
     "Founder.",
     "Surfer.",
-    "Optimistic."
+    "Optimist.",
+    "Business Owner.",
+    "Hopeful.", 
+    "Son.",
+    "Friend.",
+    "Recent Graduate.",
+    "Developer.",
+    "Driven."
   ];
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
