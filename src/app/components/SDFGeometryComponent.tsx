@@ -141,7 +141,7 @@ const SDFGeometryComponent = () => {
     }
     else {
         // Set a custom color for MeshBasicMaterial
-        meshFromSDF.material = new THREE.MeshBasicMaterial({ color: 0xFFFFFF }); // Replace 0xff0000 with your desired color
+        meshFromSDF.material = new THREE.MeshBasicMaterial({ color: 0xffffff }); // Replace 0xff0000 with your desired color
       }
 
     meshFromSDF.material.wireframe = settings.wireframe;

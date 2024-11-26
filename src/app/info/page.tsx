@@ -8,6 +8,7 @@ const Info = () => {
         <p><a className='underline' href="https://www.linkedin.com/feed/" target='blank'><strong>LinkedIn</strong></a></p>
         <p><a className='underline' href="mailto:parkerconrad814@yahoo.com" target='blank'><strong>parkerconrad814@yahoo.com</strong></a></p>
     </div>
+    
   )
 }
 
