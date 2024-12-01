@@ -37,7 +37,7 @@ const Projects = () => {
               <br />
               <strong>Technical Lead</strong> of an application suite supporting
               various aspects of Operations and Manufacturing Engineering (ME)
-              across 9 mfg. plants & corporate. This includes:
+              across 9 manufacturing. plants & corporate. This includes:
               <br /> <br />
               <ul className="list-disc">
                 <li>
@@ -122,12 +122,12 @@ const Projects = () => {
               <br />
             </p>
             <p>
-              The first project involved developing a system to update Ashoka's
-              profiles of social entrepreneurs (Fellows) using data from
-              websites, social media, and voice bots. This system would enhance
-              Ashoka's ability to identify synergies, improve the selection
-              process, and foster impactful collaborations that could drive
-              large-scale social change.
+              The first project involved developing a system to update
+              Ashoka&apos;s profiles of social entrepreneurs (Fellows) using
+              data from websites, social media, and voice bots. This system
+              would enhance Ashoka&apos;s ability to identify synergies, improve
+              the selection process, and foster impactful collaborations that
+              could drive large-scale social change.
               <br />
               <br />
               The second project focused on creating a financial literacy app
